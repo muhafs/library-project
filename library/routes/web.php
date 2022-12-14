@@ -27,7 +27,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index']);
+// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index']);
 
 // Start Catalog's Routes (Old)
 // Route::get('/catalogs', [App\Http\Controllers\CatalogController::class, 'index']); //? Show main page
